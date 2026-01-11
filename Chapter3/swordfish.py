@@ -8,4 +8,6 @@ while True:
     password = input('> ')
     if password == 'swordfish':
         break
+    else:
+        print('Wrong fish. Try again.')
 print('Access granted. Thanks, Joe!')
